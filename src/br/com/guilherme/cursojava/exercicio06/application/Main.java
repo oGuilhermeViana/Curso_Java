@@ -1,4 +1,4 @@
-package br.com.guilherme.cursojava.exercicio06.entities;
+package br.com.guilherme.cursojava.exercicio06.application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,11 +6,15 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
+import br.com.guilherme.cursojava.exercicio06.entities.Client;
+import br.com.guilherme.cursojava.exercicio06.entities.Order;
+import br.com.guilherme.cursojava.exercicio06.entities.OrderItem;
+import br.com.guilherme.cursojava.exercicio06.entities.Product;
 import br.com.guilherme.cursojava.exercicio06.enums.OrderStatus;
 
 public class Main {
 
-	public static void main(String[] args) throws ParseException {
+public static void main(String[] args) throws ParseException {
 		
 		Locale.setDefault(Locale.US);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -56,6 +60,7 @@ public class Main {
 		System.out.println("ORDER SUMARY: ");
 		System.out.println(order);
 		
+		sc.close();
 	}
 
 }
