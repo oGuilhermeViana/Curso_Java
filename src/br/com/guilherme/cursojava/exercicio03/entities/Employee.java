@@ -1,4 +1,4 @@
-package br.com.guilherme.cursojava.exercicio03;
+package br.com.guilherme.cursojava.exercicio03.entities;
 
 public class Employee {
 	

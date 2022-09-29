@@ -1,4 +1,4 @@
-package br.com.guilherme.cursojava.exercicio02;
+package br.com.guilherme.cursojava.exercicio02.entities;
 
 public class Rend {
 	private String name;

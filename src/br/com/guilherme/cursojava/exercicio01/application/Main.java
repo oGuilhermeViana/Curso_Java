@@ -1,7 +1,9 @@
-package br.com.guilherme.cursojava.exercicio01;
+package br.com.guilherme.cursojava.exercicio01.application;
 
 import java.util.Locale;
 import java.util.Scanner;
+
+import br.com.guilherme.cursojava.exercicio01.entities.Account;
 
 public class Main {
 

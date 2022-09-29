@@ -1,6 +1,8 @@
-package br.com.guilherme.cursojava.exercicio02;
+package br.com.guilherme.cursojava.exercicio02.application;
 
 import java.util.Scanner;
+
+import br.com.guilherme.cursojava.exercicio02.entities.Rend;
 
 public class Main {
 

@@ -1,9 +1,11 @@
-package br.com.guilherme.cursojava.exercicio03;
+package br.com.guilherme.cursojava.exercicio03.application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
+
+import br.com.guilherme.cursojava.exercicio03.entities.Employee;
 
 public class Main {
 

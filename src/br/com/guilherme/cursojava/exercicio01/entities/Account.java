@@ -1,4 +1,4 @@
-package br.com.guilherme.cursojava.exercicio01;
+package br.com.guilherme.cursojava.exercicio01.entities;
 
 public class Account {
 	private String holder;
